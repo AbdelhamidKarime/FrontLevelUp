@@ -1,0 +1,35 @@
+::ng-deep{
+    .filter-group .ng-select{
+        width: 120px !important;
+        height: 38px;
+    }
+
+    .d-flex.mt-4.mt-lg-0{
+        flex-wrap:wrap
+    }
+
+    @media (max-width: 368px) {
+        .d-flex.mr-auto.mt-4.ml-4.mt-lg-0 .filter-group{
+            width: 154px;
+            overflow: hidden;
+        }
+
+        ul.pagination{
+            position: relative !important;
+            transform: translate(-50px,0px) !important;
+        }
+    }
+    @media (max-width:330px) {
+        .table-filter input{
+        width: 185px;
+    }
+    }
+    .page-item.active .page-link{
+        background-color: #6259ca !important;
+    }
+    
+}
+
+.btn.btn-primary{
+    height: 38px;
+}

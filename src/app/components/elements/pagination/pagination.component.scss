@@ -1,0 +1,10 @@
+::ng-deep{
+    .pagination-circle .pagination{
+        margin: 0;
+    }
+
+    .page-item.active .page-link{
+        background-color: #8667ff;
+        border: 1px solid #8667ff;
+    }
+}

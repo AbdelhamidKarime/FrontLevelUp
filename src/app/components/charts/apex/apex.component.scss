@@ -1,0 +1,57 @@
+::ng-deep{
+    .apexcharts-toolbar{
+        right: initial !important;
+        left: 0;
+    }
+    
+        .apexcharts-menu.apexcharts-menu-open:nth-child(2){
+                transform: translate(90px, 0px);
+            z-index:0 !important;
+    }
+
+    .apexcharts-toolbar{
+        z-index: 0 !important;
+    }
+
+    .apexcharts-tooltip{
+        z-index: 0 !important;
+    }
+
+    @media (max-width:480px) {
+        svg{
+            overflow: visible !important;
+        }
+
+        svg:nth-last-child(3){
+            transform: translate(-50px ,0) !important;
+            overflow: visible !important;
+        }
+        
+        .apexcharts-yaxis-annotations rect {
+            transform: translate(3px,0px);
+        }
+        .apexcharts-yaxis-annotations text{
+            transform: translate(-60px,0px);
+        }
+    }
+
+    @media (max-width:370px) {
+        svg:nth-last-child(3){
+            transform: translate(-10px ,0) !important;
+            overflow: visible !important;
+        }
+        
+    }
+
+    @media (max-width:340px) {
+        .apexcharts-canvas.apexcharts-theme-light{
+                width: 230px !important;
+                overflow: hidden;
+        }
+        svg:nth-last-child(2){
+            transform: translate(30px ,0) !important;
+            overflow: visible !important;
+        }
+    }
+}
+

@@ -1,0 +1,67 @@
+::ng-deep{
+    .main-navbar .nav-sub-item > .nav-sub{
+        right: 176px;
+        top: 4px;
+    }
+
+    .main-navbar{
+        padding: 0;
+    }
+    @media (min-width: 1200px) and (max-width: 1477px){
+        .main-navbar .nav-sub-item > .nav-sub {
+            right: -182px !important; 
+        }
+    }
+
+    .hor-menu.main-navbar .nav-link {
+        padding: 11px 0 !important;
+        height: 100%;
+    }
+    
+    @media (max-width:340px) {
+        .responsive-navbar.navbar .navbar-collapse{
+            padding-right: 0rem !important;
+        }
+        
+    }
+
+    
+    @media (min-width:992px) {
+        .main-navbar{
+            z-index: 98;
+        }
+    }
+
+    @media (min-width: 992px){
+        .main-navbar .nav-sub {
+            top:50px;
+            padding: 0 0 0 20px !important;
+        }
+    }   
+
+    .main-navbar .nav-link.with-sub::before{
+        top: 44px
+    }
+    .nav-item{
+        line-height: 2;
+    }
+
+    .nav-sub-link.with-sub{
+        width: 110%;
+    }
+
+    .main-navbar .nav-sub-link.with-sub::after{
+        margin-left: 25px;
+    }
+
+    .main-navbar .nav-sub-link:before{
+        right: -12px !important;
+    }
+
+    @media (min-width: 1200px){
+        .main-navbar .nav-item + .nav-item {
+            margin-right: 9px;
+            padding-right: 20px;
+        }
+    }
+}

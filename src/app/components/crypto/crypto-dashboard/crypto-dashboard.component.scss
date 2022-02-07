@@ -1,0 +1,23 @@
+::ng-deep {
+    .carousel.slide {
+      outline: 0;
+    }
+    .owl-theme .owl-nav [class*="owl-"] {
+      display: none;
+    }
+    .horizontalmenu .owl-carousel.owl-drag .owl-item{
+      width: 268.5px !important;
+    }
+    .owl-theme:after , .owl-theme:before{
+      opacity: 0;
+    }
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1000 ms;
+    animation-duration: 1000 ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  

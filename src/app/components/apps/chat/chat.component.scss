@@ -1,0 +1,16 @@
+::ng-deep{
+    .dropdown-menu{
+        // transform: translate(-140px, 24px);
+    }
+    .tooltip{
+        transform: translate(0, 0);
+    }
+
+    @media (max-width: 444px){
+        .nav.main-nav-line.main-nav-line-chat.card-body a {
+            display: flex;
+            padding: 0;
+            padding-right: 4px;
+        }
+    }
+}

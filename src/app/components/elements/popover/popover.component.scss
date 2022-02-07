@@ -1,0 +1,73 @@
+::ng-deep {
+    .colorHeadSecondary .popover-header {
+        background-color: #f1388b !important;
+        color: #fff;
+    }
+    .fullPrimary.popover, .fullSecondary.popover{
+        border: none;
+    }
+    .fullPrimary .popover-body, .fullPrimary .popover-header {
+        background-color: #6259ca;
+        color: #fff;
+        border: none;
+    }
+    .fullSecondary .popover-header, .fullSecondary .popover-body {
+        background-color: #f1388b !important;
+        color: #fff;
+        border: none;
+    }
+    .fullPrimary.bs-popover-top > .arrow::after{
+        border-top-color: #6259ca;
+    }
+    .fullSecondary.bs-popover-top > .arrow::after{
+        border-top-color: #f1388b;
+    }
+
+    @media (max-width:580px) {
+        .bs-popover-left:nth-child(2){
+            transform: translate(0px, 40px) !important;
+        }
+        
+        .bs-popover-right:nth-child(2){
+            transform: translate(0px, 40px) !important;
+        }
+    }
+
+    .btn.btn-list .fullSecondary.popover.fade.bs-popover-top,
+    .btn.btn-list .colorHeadSecondary.popover.fade.bs-popover-top
+    {
+        transform:  translate(-64px, 0) !important;
+     }
+    @media (max-width:380px) {
+        .btn.btn-list button{
+            margin-left: 0 !important;
+            margin-right: 5px;
+        }
+        
+    }
+    @media (min-width:600px) {
+        .btn.btn-list .popover.fade.bs-popover-top{
+            right: 0;
+            left: initial !important;
+            transform: translate(9px, 0px) !important;
+        }
+    
+    }
+
+    @media (max-width:360px) {
+        .btn.btn-list .fullSecondary.popover.fade.bs-popover-top,
+        .btn.btn-list .colorHeadSecondary.popover.fade.bs-popover-top{
+            transform:  translate(0px, 85px) !important;
+         }
+    }
+    
+
+    .popover{
+        z-index: 1 !important;
+    }
+
+    .popover-header {
+        background-color: #6259ca !important;
+        color: #fff;
+    }
+}

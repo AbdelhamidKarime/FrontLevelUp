@@ -1,0 +1,52 @@
+::ng-deep {
+    .tooltipPrimary .tooltip-inner{
+        background-color: #6259ca;
+        font-size: 125%;
+    }
+    .tooltipPrimary .arrow::before {
+        border-top-color:  #6259ca;
+    }
+    .tooltipSecondary .tooltip-inner {
+        background-color: #f1388b;
+        font-size: 125%;
+    }
+    .tooltipSecondary .arrow::before {
+        border-bottom-color:  #f1388b;
+    }
+    .tooltipInfo .tooltip-inner {
+        background-color: #06aff1;
+        font-size: 125%;
+    }
+    .tooltipInfo .arrow::before {
+        border-left-color:  #06aff1;
+    }
+    .tooltipDanger .tooltip-inner {
+        background-color: #fd6074;
+        font-size: 125%;
+    }
+    .tooltipDanger .arrow::before {
+        border-right-color:  #fd6074;
+    }
+
+    .tooltip{
+        z-index: 1 !important;
+    }
+
+    @media (max-width:400px) {
+        .tooltip.tooltipInfo.fade.bs-tooltip-left{
+            transform: translate(30px, 50px) !important;
+        }
+    
+        .tooltip.tooltipDanger.fade.bs-tooltip-right{
+            transform: translate(30px,50px) !important;
+        }
+    }
+
+    .tooltip-primary .tooltip-inner {
+        background-color: #6259ca;
+        color: #fff;
+    }
+    .tooltip-primary.bs-tooltip-top .arrow:before {
+        border-top-color: #6259ca;
+    }
+}

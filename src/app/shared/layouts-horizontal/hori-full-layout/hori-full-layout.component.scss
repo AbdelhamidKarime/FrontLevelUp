@@ -1,0 +1,17 @@
+::ng-deep{
+    @media (max-width:350px) {
+      .demo_changer.active{
+          left: -10px !important;
+      }  
+
+      
+    }
+
+    @media (max-width:1200px) {
+      .main-navbar .nav-item + .nav-item {
+        margin-right: 12px;
+        padding-right: 20px;
+    }
+    }
+
+  }
